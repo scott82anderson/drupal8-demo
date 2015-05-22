@@ -1,0 +1,10 @@
+name: Scotts Module
+type: module
+description: 'Drupal 8 module demo.'
+package: Custom
+version: 8.x-1.0
+core: 8.x
+dependencies:
+  - block
+  - field
+hidden: false

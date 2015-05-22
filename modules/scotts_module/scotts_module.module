@@ -1,0 +1,10 @@
+<?php
+
+function scotts_module_theme() {
+  $theme['hello'] = [
+    'template' => 'hello',
+    'variables' => ['name' => NULL]
+  ];
+
+  return $theme;
+}

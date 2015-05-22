@@ -1,0 +1,7 @@
+hello.content:
+  path: '/scott'
+  defaults:
+    _controller: '\Drupal\scotts_module\Controller\ScottsController::content'
+    _title: 'Hello World'
+  requirements:
+    _permission: 'access content'
